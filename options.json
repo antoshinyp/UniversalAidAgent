@@ -1,0 +1,35 @@
+{
+  "languages": [
+    "English",
+    "Spanish",
+    "French",
+    "Hindi",
+    "Mandarin",
+    "Arabic",
+    "Russian",
+    "Portuguese",
+    "Bengali",
+    "Other"
+  ],
+  "disabilities": [
+    "None",
+    "Visual impairment",
+    "Hearing impairment",
+    "Physical disability",
+    "Intellectual disability",
+    "Learning disability",
+    "Mental health condition",
+    "Other"
+  ],
+  "religions": [
+    "None",
+    "Christianity",
+    "Islam",
+    "Hinduism",
+    "Buddhism",
+    "Judaism",
+    "Sikhism",
+    "Traditional/Indigenous",
+    "Other"
+  ]
+}

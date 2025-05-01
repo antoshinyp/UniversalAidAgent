@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+azure-iot-device
+azure-functions
+openai
+pandas
+scikit-learn
+azure-identity
+azure-keyvault-secrets
+requests
+python-jose[cryptography]
+python-dotenv

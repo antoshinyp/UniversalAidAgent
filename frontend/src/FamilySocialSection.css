@@ -1,0 +1,82 @@
+/* FamilySocialSection.css */
+.family-social-section {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 1px 4px rgba(45, 114, 217, 0.06);
+  margin-bottom: 16px;
+  padding: 1.5em;
+  border: 1.5px solid #e0e0e0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.family-social-section label {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.family-social-section label svg {
+  margin-right: 6px;
+}
+
+.family-social-section details {
+  margin-bottom: 0;
+}
+
+.family-social-section summary {
+  font-weight: 600;
+  cursor: pointer;
+  padding: 5px 0;
+}
+
+.family-social-section summary span {
+  color: #888;
+  font-weight: 400;
+}
+
+.family-social-section textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  resize: vertical;
+  font-family: inherit;
+  margin-top: 8px;
+}
+
+.family-social-section textarea:focus {
+  outline: none;
+  border-color: #2d72d9;
+  box-shadow: 0 0 0 2px rgba(45, 114, 217, 0.2);
+}
+
+/* High contrast mode adjustments */
+body.high-contrast .family-social-section {
+  background-color: #000;
+  border-color: #fff;
+}
+
+body.high-contrast .family-social-section label,
+body.high-contrast .family-social-section summary {
+  color: #fff;
+}
+
+body.high-contrast .family-social-section textarea {
+  background-color: #000;
+  color: #fff;
+  border-color: #fff;
+}
+
+/* Simple UI mode adjustments */
+body.simple-ui .family-social-section {
+  padding: 20px;
+  gap: 25px;
+}
+
+body.simple-ui .family-social-section textarea {
+  padding: 12px;
+  font-size: 16px;
+}

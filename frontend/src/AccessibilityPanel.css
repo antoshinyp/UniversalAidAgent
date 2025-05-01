@@ -1,0 +1,165 @@
+/* AccessibilityPanel.css */
+.accessibility-panel {
+  position: fixed;
+  top: 100px;
+  right: 0;
+  z-index: 1000;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.accessibility-toggle {
+  background-color: #2d72d9;
+  color: white;
+  border: none;
+  border-radius: 4px 0 0 4px;
+  padding: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.accessibility-toggle:hover {
+  background-color: #215aa9;
+}
+
+.accessibility-panel.open .accessibility-toggle {
+  right: 300px;
+}
+
+.accessibility-controls {
+  background-color: white;
+  width: 300px;
+  padding: 20px;
+  border-radius: 4px 0 0 4px;
+  box-shadow: -2px 2px 10px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: translateX(100%);
+  transition: transform 0.3s ease;
+  border-left: 4px solid #2d72d9;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.accessibility-panel.open .accessibility-controls {
+  transform: translateX(0);
+}
+
+.accessibility-controls h3 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: #2d72d9;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+}
+
+.control-group {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #eee;
+}
+
+.control-group label {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.control-buttons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.control-buttons button {
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.control-buttons button:hover {
+  background-color: #e0e0e0;
+}
+
+.voice-speed {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.voice-speed input[type="range"] {
+  width: 100%;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/* High contrast mode styles */
+body.high-contrast {
+  background-color: #000 !important;
+  color: #fff !important;
+}
+
+body.high-contrast a {
+  color: #ffff00 !important;
+}
+
+body.high-contrast button, 
+body.high-contrast input, 
+body.high-contrast select, 
+body.high-contrast textarea {
+  background-color: #000 !important;
+  color: #fff !important;
+  border: 2px solid #fff !important;
+}
+
+/* Simple UI mode styles */
+body.simple-ui * {
+  animation: none !important;
+  transition: none !important;
+}
+
+body.simple-ui {
+  font-family: Arial, sans-serif !important;
+  line-height: 1.5 !important;
+}
+
+body.simple-ui img:not(.essential-image) {
+  display: none !important;
+}
+
+body.simple-ui .decorative {
+  display: none !important;
+}
+
+body.simple-ui .form-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+body.simple-ui input, 
+body.simple-ui select, 
+body.simple-ui textarea {
+  padding: 12px !important;
+  font-size: 16px !important;
+}

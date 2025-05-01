@@ -1,0 +1,29 @@
+Privacy Policy for Universal Aid Agent
+
+Effective Date: April 29, 2025
+
+1. Data Collection and Use
+- We collect only the minimum information necessary to provide support and recommendations.
+- Personal information (such as addresses and attachments) is processed in memory only and is not stored, logged, or shared.
+- For low and medium risk cases, street-level address details are automatically removed before processing.
+- For high-risk cases (such as emergencies), full address details may be used to help responders, but are never stored.
+
+2. Attachments
+- Any files or images you upload are processed in memory only and are not saved to disk or retained after your session.
+
+3. Children’s Privacy (COPPA)
+- We do not store, share, or sell any personal information from children under 13.
+- Our system is designed to minimize data collection and protect children’s privacy at all times.
+
+4. Your Rights
+- You have the right to know what data is processed and to request deletion or correction at any time.
+- Since we do not store your data, there is no persistent record to delete.
+
+5. Security
+- We use technical and organizational measures to protect your information during processing.
+- No personal data is stored after your session ends.
+
+6. Contact
+If you have questions about this policy or your privacy, please contact us at [your-contact-email@example.com].
+
+By using this service, you agree to this privacy policy.
