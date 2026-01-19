@@ -10,9 +10,9 @@ Universal Aid Agent is a cross-platform solution for human protection, incident 
 **Contact:**
 For support or inquiries, contact: apushparaj@microsoft.com or antoshiny.pushparaj@gmail.com
 
-# Save Child Universal Aid Agent
+# Universal Aid Agent
 
-A cross-platform solution for child protection, incident reporting, and resource guidance, built with React (frontend) and FastAPI (backend).
+A cross-platform solution for human protection, incident reporting, and resource guidance, built with React (frontend) and FastAPI (backend).
 
 ## Table of Contents
 - [Project Status](#project-status)
@@ -32,7 +32,7 @@ A cross-platform solution for child protection, incident reporting, and resource
 - **Email Notification:** Not fully implemented. Some parts may be incomplete or non-functional.
 
 ## Features
-- Child protection incident reporting
+- Human protection incident reporting
 - Country-specific guidelines and emergency contacts
 - AI-powered recommendations (Azure OpenAI)
 - Secure authentication (Azure AD)
