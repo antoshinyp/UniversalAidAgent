@@ -8,7 +8,7 @@ Copyright (c) 2025 Save Child Hackathon Team. All rights reserved.
 Universal Aid Agent is a cross-platform solution for human protection, incident reporting, and resource guidance. It features a React frontend and FastAPI backend, enabling users to report incidents, access country-specific safety guidelines, and receive AI-powered recommendations. The system supports accessibility, integrates with Azure OpenAI for intelligent suggestions, and uses the SERP API for Google Search grounding to provide up-to-date information. Designed for security, safety, inclusivity, and extensibility, it is suitable for global deployment in diverse communities.
 
 **Contact:**
-For support or inquiries, contact: apushparaj@microsoft.com or antoshiny.pushparaj@gmail.com
+For support or inquiries, contact: antoshiny.pushparaj@gmail.com
 
 # Universal Aid Agent
 
